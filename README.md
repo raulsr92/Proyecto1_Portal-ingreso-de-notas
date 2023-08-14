@@ -6,8 +6,8 @@ _________
 - Tutoriales🎬:
 
 |Tutorial                |Enlace                                                 |
-|----------------|-------------------------------|-----------------------------|
-|Capítulo 1:  Concepción del proyecto|[Entra aquí](https://www.youtube.com/watch?v=zsKDtxFyEjk)        |
+|----------------|-------------------------------|
+|Capítulo 1:  Concepción del proyecto|[Entra aquí](https://www.youtube.com/watch?v=zsKDtxFyEjk)       |
 |Capítulo 2:  Maquetación HTML|[Entra aquí](https://www.youtube.com/watch?v=QlTr2wgyNzs&t=67s)        |
 |Capítulo 3:  Estilos con CSS|[Entra aquí](https://www.youtube.com/watch?v=zsKDtxFyEjk)        |
 |Capítulo 4:  Agregando funcionalidades con JavaScript|[Entra aquí](https://www.youtube.com/watch?v=zsKDtxFyEjk)        |
