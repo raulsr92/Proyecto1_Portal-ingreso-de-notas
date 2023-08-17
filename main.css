@@ -1,4 +1,4 @@
-/*Variables CSS globales*/
+/*Variables globales CSS*/
 
 :root{
     --main-color:  #9B59B6;
@@ -7,4 +7,9 @@
     --form-color: #FEF9E7;
     --footer-color: #F4D03F;
     --question-color: #E74C3C;
+    
+    --small-font: 20px;
+    --medium-font: 22px;
+    --big-font: 25px;
+    --large-font: 30px;    
 }
