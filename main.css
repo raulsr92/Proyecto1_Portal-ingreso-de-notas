@@ -13,3 +13,17 @@
     --big-font: 25px;
     --large-font: 30px;    
 }
+
+/*Fuente para el proyecto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+
+/*Estilos Universales*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
