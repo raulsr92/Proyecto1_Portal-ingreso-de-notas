@@ -53,6 +53,11 @@ body{
 
 header{
     grid-area: encabezado;
+    width: 100%;
+    padding: 30px 40px 30px 40px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 main{
