@@ -79,16 +79,29 @@ header{
 }
 
 .search--bar{
-    /*justify-self: center;*/
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    column-gap: 8px; /*falta grabar esta parte*/
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu--login{
     justify-self: flex-end;
 }
 
+.search--bar input{
+    width: 80%;
+    height: 45px;
+    border-radius: 20px;
+    border: 0;
+    outline: 4px solid var(--header-color);
+    padding-inline-start: 30px;
+    transition: width 3s ease-out;
+}
+
+.search--bar input:hover{
+    width: 90%;
+    background-color: var(--form-color);
+    outline: 4px solid var(--footer-color);
+}
 
 
 main{
