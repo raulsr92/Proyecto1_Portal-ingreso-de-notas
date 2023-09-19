@@ -58,8 +58,10 @@ header{
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    align-items: center;
     text-transform: uppercase;
     background-color: var(--main-color);
+    box-shadow: 0px 0px 5px 2px var(--header-color);
 }
 
 .menu--options ul{
@@ -103,6 +105,38 @@ header{
     outline: 4px solid var(--footer-color);
 }
 
+.search--bar span{
+    align-self: center;
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
+.fa-magnifying-glass{
+    color: var(--header-color);
+}
+
+.btn-type1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 60px;
+    background-color: var(--header-color);
+    border-radius: 10px;
+    color: var(--main-color);
+    font-weight: 700;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    box-shadow: 0px 0px 5px 2px var(--secondary-color);
+}
+
+.btn-type1:hover{
+    box-shadow: 0px 0px 5px 2px var(--header-color);
+    background-color: var(--footer-color);
+
+}
 
 main{
     grid-area: principal;
