@@ -146,8 +146,18 @@ footer{
     grid-area: piepag;
 }
 
+/*Estilos en el contenedor principal*/
 
 
+main{
+    width: 100%;
+    height: auto;
+    padding: 50px 60px 50px 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 100px;
+    min-width: 360px;
+}
 
 
 
