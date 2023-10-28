@@ -154,10 +154,25 @@ main{
     height: auto;
     padding: 50px 60px 50px 60px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 100px;
+    grid-template-rows: auto auto;
+    row-gap: 50px;
     min-width: 360px;
+    justify-items: center;
 }
+
+.main__input, .main__statistics{
+    width: 85%;
+    height: auto;
+    min-width: 360px;
+    display: grid;
+}
+
+
+
+
+
+
+
 
 
 
