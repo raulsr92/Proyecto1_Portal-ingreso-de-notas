@@ -158,6 +158,8 @@ main{
     row-gap: 50px;
     min-width: 360px;
     justify-items: center;
+
+
 }
 
 .main__input, .main__statistics{
@@ -167,9 +169,23 @@ main{
     display: grid;
 }
 
+.main__input{
+    row-gap: 40px;
+    justify-items:center;
+}
 
+.main__input h1{
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-weight: 900;
+}
 
-
+.main__input form{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+}
 
 
 
