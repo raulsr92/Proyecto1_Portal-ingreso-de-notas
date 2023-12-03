@@ -185,15 +185,56 @@ main{
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+         " text     text        text"
+         " icon1    etiqueta1   input1"
+         " icon2    etiqueta2   input2"
+         " button   button      button"
+    ;
+    background: var(--form-color);
+    padding: 40px;
+    border: 4px solid var(--secondary-color);
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    gap: 20px;
+    
+
 }
 
+/* Ubicación de los elementos de la grilla en el área correspondiente */
 
+.item0{
+    grid-area: text;
+}
 
+.item1{
+    grid-area: icon1;
+}
 
+.item2{
+    grid-area: etiqueta1;
+}
 
+.item3{
+    grid-area: input1;
+}
 
+.item4{
+    grid-area: icon2;
+}
 
+.item5{
+    grid-area: etiqueta2;
+  
+}
 
+.item6{
+    grid-area: input2;
+}
+
+.item7{
+    grid-area: button;
+}
 
 
 
