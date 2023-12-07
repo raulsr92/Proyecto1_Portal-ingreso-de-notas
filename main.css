@@ -197,8 +197,6 @@ main{
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
     gap: 20px;
-    
-
 }
 
 /* Ubicación de los elementos de la grilla en el área correspondiente */
@@ -236,11 +234,28 @@ main{
     grid-area: button;
 }
 
+/* Jerarquía de textos: párrafos */
 
+p{
+    color: var(--secondary-color);
+    font-size: 18px;
+}
 
+.p-content{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
 
-
-
+.p-legend{
+    font-size: 25px;
+    line-height: 37px;
+    color: var(--main-color);
+    font-weight: 800;
+    letter-spacing: 3px;
+}
 
 
 
