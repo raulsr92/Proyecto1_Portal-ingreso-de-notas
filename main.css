@@ -393,23 +393,16 @@ input[type="button"]:hover{
     transform: translate(-3px, -3px);
 }
 
+/* Sección 2 */
 
+/* ========== Primer elemento de S2 ========== */
 
-
-
-
-/*
-.form-control-1:focus{
-    border: 3px solid var(--main-color);
-    box-shadow: 3px 3px 0px 3px var(--main-color);
-    outline: 0;
-    transform:    translate(-3px, -3px);
+.tittle--statistics{
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: 900;
 }
-la propiedad transform permite transformar un elemento de diversas formas mediante el uso
-de funciones css.
-Lo que queremos realizar en la caja de texto es que se desplaze ligereamente en el eje horizontal y 
-vertical, por lo que para ello utilziamos la función css translate, a la cual le tenemos que
-especificar 2 valores
-1° valor: desplazamiento en eje X
-2° valor: desplazamoento en eje Y
-*/
+
+
+
