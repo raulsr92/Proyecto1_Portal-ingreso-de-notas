@@ -364,8 +364,18 @@ input[type="button"]:hover{
     padding: 11px 45px;
 }
 
+/* Formularios */
 
-
+.form-control-1{
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid var(--main-color);
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 700;
+    transition: all 200ms ease-in-out
+}
 
 
 
@@ -373,30 +383,24 @@ input[type="button"]:hover{
 
 
 /*
-body{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
+    border-radius: 7px;
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 700;
+    transition: all 200ms ease-in-out;
 
-    "encabezado encabezado encabezado"
-    "principal principal principal"
-    "piepag piepag piepag"
 
-    ;
+.form-control-1::placeholder{
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-header{
-    grid-area: encabezado;
+.form-control-1:focus{
+    border: 3px solid var(--main-color);
+    box-shadow: 3px 3px 0px 3px var(--main-color);
+    outline: 0;
+    transform:    translate(-3px, -3px);
+   
 }
-
-main{
-    grid-area: principal;
-
-}
-
-footer{
-    grid-area: piepag;
-}
-
 */
