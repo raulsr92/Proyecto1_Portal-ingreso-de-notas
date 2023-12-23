@@ -173,6 +173,10 @@ main{
     display: grid;
 }
 
+.main__statistics{
+    row-gap: 45px;
+}
+
 .main__input{
     row-gap: 40px;
     justify-items:center;
@@ -402,6 +406,7 @@ input[type="button"]:hover{
     color: var(--secondary-color);
     font-size: 22px;
     font-weight: 900;
+    justify-self: center;
 }
 
 
