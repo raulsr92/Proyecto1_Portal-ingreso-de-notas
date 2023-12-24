@@ -437,21 +437,32 @@ input[type="button"]:hover{
 .statistics__result{
     grid-column: 6/10 ;
     grid-row: 1/4;
-    border-radius: 5px;
-    height: 60%;
-    align-self: center;
-
-}
-
-
-
-
-/*
-
-.statistics__result{
     border: 4px solid var(--hover-color);
     border-radius: 5px;
     height: 60%;
+    align-self: center;
+    box-shadow: 8px 8px 0px 4px var(--question-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
 }
 
-*/
+.statistics__result p, .statistics__result span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.statistics__result span{
+    color: var(--question-color);
+}
+
+.statistics__promedio, .statistics__mediana, .statistics__moda{
+    display: flex;
+    column-gap: 10px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
