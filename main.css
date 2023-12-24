@@ -162,8 +162,7 @@ main{
     row-gap: 50px;
     min-width: 360px;
     justify-items: center;
-
-
+    background: #EAEDED;
 }
 
 .main__input, .main__statistics{
@@ -174,12 +173,17 @@ main{
 }
 
 .main__statistics{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
     row-gap: 45px;
 }
 
 .main__input{
     row-gap: 40px;
     justify-items:center;
+    padding-bottom: 80px;
+    border-bottom: 5px solid var(--main-color);
 }
 
 .main__input h1{
@@ -358,7 +362,8 @@ input[type="button"]:hover{
     border: 0;
     font-size: 18px;
     font-weight: 900;
-    padding: 11px 40px;
+    padding: 2% 5%;
+    width: 90%;
     border-radius: 20px;
     text-transform: uppercase;
     cursor: pointer;
@@ -369,7 +374,7 @@ input[type="button"]:hover{
     background: var(--form-color);
     color: var(--hover-color);
     box-shadow: 0px 0px 10px 2px var(--hover-color);
-    padding: 11px 45px;
+    width: 95%;
 }
 
 /* Formularios */
@@ -463,6 +468,12 @@ input[type="button"]:hover{
     display: flex;
     column-gap: 10px;
     padding: 20px 0px;
+    justify-content: center;
+}
+
+.statistics__promedio div, .statistics__mediana div, .statistics__moda div{
+    width: 300px;
+    display: flex;
     justify-content: center;
 }
 
