@@ -477,3 +477,8 @@ input[type="button"]:hover{
     justify-content: center;
 }
 
+/*Estilos en el pie de página*/
+
+footer{
+    display: grid;
+}
