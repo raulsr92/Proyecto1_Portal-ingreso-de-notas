@@ -480,5 +480,38 @@ input[type="button"]:hover{
 /*Estilos en el pie de página*/
 
 footer{
-    display: grid;
+    width: 100%;
+    height: auto;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
 }
+
+.footer--text{
+    order: 2;
+}
+
+.footer--media{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--secondary-color);
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+/*
+.footer--text{
+    order: 2;
+}
+
+.footer--media{
+    order: 1;
+
+}
+*/
