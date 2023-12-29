@@ -319,7 +319,7 @@ p{
     height: 48px;
 }
 
-.footer--right > div > div{
+.footer--media > div > div{
     display: flex;
     width: 50px;
     height: 50px;
@@ -497,8 +497,25 @@ footer{
     flex-direction: column;
     align-items: center;
     background: var(--secondary-color);
-    padding: 20px 0px;
+    padding: 40px 0px;
+    row-gap: 20px;
 }
+
+.footer--media p{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+.footer--media > div{
+    display: flex;
+    column-gap: 15px;
+}
+
+
+
+
 
 
 
@@ -506,12 +523,6 @@ footer{
 
 
 /*
-.footer--text{
-    order: 2;
-}
-
-.footer--media{
-    order: 1;
-
-}
+    display: flex;
+    column-gap: 15px;
 */
