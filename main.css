@@ -487,10 +487,6 @@ footer{
     flex-direction: column;
 }
 
-.footer--text{
-    order: 2;
-}
-
 .footer--media{
     order: 1;
     display: flex;
@@ -513,16 +509,32 @@ footer{
     column-gap: 15px;
 }
 
+.footer--text{
+    order: 2;
+    display: flex;
+    padding: 30px 25px;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    background: #EAEDED;
+}
 
-
-
-
-
-
-
-
-
-/*
+.footer--text > div:nth-child(1){
+    order: 2;
     display: flex;
     column-gap: 15px;
-*/
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.footer--text > div:nth-child(1) span{
+    color: var(--main-color);
+    font-size: 18px;
+    text-shadow: 0px 0px 8px var(--footer-color);
+}
+
+
+.footer--text > div:nth-child(2){
+    order: 1;
+}
